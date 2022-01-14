@@ -47,6 +47,15 @@
   <link rel="stylesheet" href="assets/css/colors/grape.css">
 
   <style>
+    .new-nav-style{
+      color: white;
+    }
+    .new-nav-style:hover{
+      color: #dc3545;
+    }
+    .active-link{
+      color: #dc3545;
+    }
     .quiq-font{
       font-family: 'Rubik', sans-serif;
     }
@@ -110,14 +119,15 @@
     }
   </style>
 
+
 </head>
 
 <body class="bg-blue-800 education-template">
 
 
   <header class="muse-header py-0 py-sm-2">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg fixed-top bg-blue-800">
+    <div class="container bg-blue-800">
+      <!-- <nav class="navbar navbar-expand-lg fixed-top bg-blue-800">
         <a class="navbar-brand" href="javascript:void(0);">
           <img src="assets/img/logo.png" alt="Muse">
         </a>
@@ -170,8 +180,138 @@
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
+
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="closefuc()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav> -->
+
+      <div class="navbar-area navbar-area-two">
+	
+        <div class="mobile-nav" style="margin-top: -13%; background-color: #073984;">
+          <a href="index.html" class="logo">
+            <img src="assets/img/logo.png" alt="Logo">
+          </a>
+        </div>
+    
+        <div class="main-nav bg-blue-800" style="background-color: #073984;">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-md">
+              <a class="navbar-brand" href="index.html">
+    
+                <img src="assets/img/logo.png" alt="Logo">
+              </a>
+    
+              <div class="collapse navbar-collapse mean-menu">
+                <ul class="navbar-nav m-auto">
+                  <li class="nav-item new-nav-style">
+                    <a href="#" class="nav-link active">
+                      <span class="active-link new-nav-style">Home</span>
+                    </a>
+    
+    
+                  </li>
+    
+                  <li class="nav-item">
+                    <a href="index2.html" class="nav-link">
+                      <span class="new-nav-style">QUIQ</span>
+                    </a>
+    
+    
+                  </li>
+    
+    
+                  </li>
+    
+                  <li class="nav-item">
+                    <a href="#why" class="nav-link">
+                      <span class="new-nav-style">WHY PADHHIGH ?</span>
+                      
+    
+                    </a>
+    
+    
+                  </li>
+    
+                  <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                      <span class="new-nav-style">FREE DEMO</span>
+                      
+    
+                    </a>
+    
+    
+                  </li>
+                  <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                      <span class="new-nav-style">About</span>
+                      
+    
+                    </a>
+    
+    
+                  </li>
+                  <li class="nav-item">
+                    <a href="policy.html" class="nav-link ">
+                      <span class="new-nav-style">Policy</span>
+                      
+    
+                    </a>
+    
+    
+                  </li>
+    
+                  <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                      <span class="new-nav-style">Contact</span>
+                      
+                    </a>
+                  </li>
+                </ul>
+    
+              
+                <div class="others-option">
+                  <div class="option-item">
+                    <!-- <i class="search-btn bx bx-search"></i> -->
+                    <i class="close-btn bx bx-x"></i>
+    
+                    
+                  </div>
+    
+    
+    
+    
+                </div>
+          
+              </div>
+            </nav>
+          </div>
+        </div>
+    
+        
+      </div> 
     </div>
+    
+
   </header>
 
 
@@ -179,10 +319,10 @@
     <section class="muse-section landing-section">
       <div class="row align-items-center pb-5 g-0">
         <div class="col-lg-6 order-lg-2 text-lg-right mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-          <img src="https://fabrx.co/muze/assets/img/templates/education-banner.svg" class="img-fluid" alt="Banner">
+          <img style="margin-top: 5%;" src="https://fabrx.co/muze/assets/img/templates/education-banner.svg" class="img-fluid" alt="Banner">
         </div>
         <div class="col-lg-6">
-          <span id="hashtag"># Learn Anything, Anytime, Anywhere</span>
+          <span id="hashtag" style="margin-top: 5%;"># Learn Anything, Anytime, Anywhere</span>
           <h1 class="display-3 text-white">Understand Concepts 1:1 Personalized Learning</h1>
           <p class="big mt-3 text-white lh-lg">Using Mind Reflections & Solve Doubts with Live Discussions.</p>
           <div class="mt-4 pt-3">
@@ -240,6 +380,285 @@
     </section>
   </div>
 
+  <section class="muse-section image-banner">
+    <center>
+      <img src="assets/img/dull.png" class="img-min img-dull" data-aos="zoom-in-up" data-aos-delay="100">
+    </center>
+  </section>
+
+  <div class="container bg-white" style="margin-top: -2px;">
+    <section class="muse-section">
+      <div class="row">
+        <div class="col-xl-8">
+          <!-- <h3 class="display-4 text-dark">Kyu IQ - <span>QUIQ ?</span></h3> -->
+          <h5>Current Problems</h5>
+          <h2 class="h1 mb-md-3 text-dark">You're facing right now</h2>
+
+          <!-- <p class="big text-white lh-lg">Duis quis ex ultrices, consectetur neque sed, blandit elit. In vitae est et est maximus lacinia. Aliquam erat volutpat.</p> -->
+        </div>
+      </div>
+      <!-- <div class="mt-1 mt-md-4 overlay-center shadow-dark-80 rounded-24" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/templates/philoshopy.jpg" class="rounded-24 w-100" alt="img">
+              <a href="#" data-toggle="modal" data-target="#staticBackdrop" class="btn play-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16">
+                      <g data-name="icons/tabler/play" transform="translate(0 0)">
+                          <rect data-name="Icons/Tabler/Play background" width="16" height="16" fill="none" />
+                          <path d="M.674,16A.681.681,0,0,1,0,15.314V.687A.681.681,0,0,1,.674,0a.661.661,0,0,1,.351.1L12.68,7.416a.693.693,0,0,1,0,1.168L1.025,15.9A.661.661,0,0,1,.674,16Zm.67-14.087V14.086L11.044,8Z" transform="translate(3)" fill="#ffffff" />
+                      </g>
+                  </svg>
+              </a>
+          </div> -->
+      <section class="education-area-two py-5" id="why" style="margin-top: -5%;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="education-content">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul>
+                      <li>
+                        <i class="bx bx-check"></i>
+                        <span class="text-dark">Lack of Personal Guidance.</span>
+                      </li>
+                      <li>
+                        <i class="bx bx-check"></i>
+                        <Span class="text-dark">Slow in calculations.</Span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <ul>
+                      <li>
+                        <i class="bx bx-check"></i>
+                        <span class="text-dark">Focused in theoretical learning.</span>
+                      </li>
+                      <li>
+                        <i class="bx bx-check"></i>
+                        <span class="text-dark">Unaware about conceptual learning.</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul>
+                      <li>
+                        <i class="bx bx-check"></i>
+                        <span class="text-dark">Just Memorizing to get marks &amp; move on.</span>
+                      </li>
+                      <li>
+                        <i class="bx bx-check"></i>
+                        <span class="text-dark">Don't Relate Mathematics with Life.</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul>
+                      <li>
+                        <i class="bx bx-check"></i>
+                        <span class="text-dark">21st Century, need knowledgeful youth over book worms.</span>
+                      </li>
+                      <li>
+                        <i class="bx bx-check"></i>
+                        <span class="text-dark">Writing by understanding is almost negligible.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+
+  <div class="container">
+    <br><br>
+    <h3 class="display-4 text-white quiq-font">QUIQ<span> Understanding</span></h3><br>
+    <!-- Start Feature Area -->
+    <section class="feature-area">
+      <div class="container">
+        <div class="feature-wrap">
+          <div class="row m-0">
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-feature">
+                <i class="flaticon-online"></i>
+                <h4>LEARN ANYTIME , ANYWHERE</h4>
+                <p> Watch videos anytime when you would like to study with complete flexibility with no
+                  limits to watch</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-feature">
+                <i class="flaticon-expert"></i>
+                <h4>VISUAL UNDERSTANDING</h4>
+                <p>Videos is fastest way to understand anything , young students can learn QUIQly with
+                  conceptual videos</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div class="single-feature">
+                <i class="flaticon-online-class"></i>
+                <h4>VEDIC MATHS </h4>
+                <p>Do Maths Rapidly in your network, have a great position in front of crowd & Be Different
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+  </div>
+
+  
+  <section class="muse-section bg-white">
+    <div class="container py-15 py-md-17 pb-md-19">
+      <div class="row align-items-center gy-8 mb-10 mb-lg-5">
+        <div class="col-lg-6 text-lg-start">
+          <h2 class="fs-12 text-uppercase text-muted mb-3">We bring solutions to make life easier for our customers. We are trusted by over 5000+ Parents. Join them now.</h2>
+          <h3 class="fs-22">We Are Proud Of Our Works</h3>
+        </div>
+
+        <div class="col-lg-6">
+          <!-- <div class="row gy-6 text-center">
+            <div class="col-md-6 mt-4">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 95%; background-color: #073984;"
+                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+
+              </div>
+              <h2 class="mt-3" style="font-size: 18px;">
+                Customer Satisfaction</h2>
+            </div>
+
+            <div class="col-md-6 mt-4">
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #dc3545;"
+                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+
+              </div>
+              <h2 class="mt-3" style="font-size: 18px;">
+                Increased Revenue</h2>
+            </div>
+
+          </div> -->
+          <div class="row align-items-center counter-wrapper gy-6 text-center">
+            <div class="col-md-4">
+              <img src="assets/img/icons/solid/target.png"
+                class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt=""
+                style="width: 50px; margin-top: 20px;" />
+              <h3 class="counter" style="visibility: visible;">9000+</h3>
+              <p class="mb-0">Students Love Us</p>
+            </div>
+
+            <div class="col-md-4">
+              <img src="assets/img/icons/solid/graph.png"
+                class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt=""
+                style="width: 50px; margin-top: 20px;" />
+              <h3 class="counter" style="visibility: visible;">4X</h3>
+              <p class="mb-0">Concepts Retention</p>
+            </div>
+
+            <div class="col-md-4">
+              <img src="assets/img/icons/solid/employee.png"
+                class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt=""
+                style="width: 50px; margin-top: 20px;" />
+              <h3 class="counter" style="visibility: visible;">99.3%</h3>
+              <p class="mb-0">Happy Parents</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="bg-red-500 philo-section">
+    <!-- <div class="has-shape">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 143.649">
+        <path id="Path_2" data-name="Path 2"
+          d="M0,55.558S368.667-36.174,768.667,23.553s593.365,64.118,810,47.555S1920,7.579,1920,7.579V147H0Z"
+          transform="translate(0 -3.351)" fill="#dc3545" />
+      </svg>
+    </div> -->
+    <div class="container">
+      <section class="muse-section">
+        <h3 class="display-4 text-white">What learners say</h3><br><br>
+
+        <div id="slider">
+          <input type="radio" name="slider" id="slide1" checked>
+          <input type="radio" name="slider" id="slide2">
+          <input type="radio" name="slider" id="slide3">
+          <input type="radio" name="slider" id="slide4">
+
+          <div id="slides" style="font-family: 'basic-first';" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
+            <div id="overflow">
+              <div class="inner">
+                <div class="slide slide_1">
+                  <div class="slide-content">
+                    <p class="text2">PADHHIGH gave me the perfect solution for my child learning with concept clearance.
+                    </p>
+                    <p style="color: #FFB100;"><b>Nita Jain </b><br> <span>(A Happy Mom)</span></p>
+                  </div>
+                </div>
+
+                <div class="slide slide_2">
+                  <div class="slide-content">
+                    <p class="text2">I started PADHHIGH. And, now, I’m learning, and learning, and learning…visualized
+                      video are engaging & Interactive.</p>
+                    <p style="color: #FFB100;"><b>Ajay Gupta </b><br> <span>Vidya Bharati School</span></p>
+                  </div>
+                </div>
+
+                <div class="slide slide_3">
+                  <div class="slide-content">
+                    <p class="text2">“They're not just teaching but also ensuring that each student is learning
+                      properly. Really recommendable</p>
+                    <p style="color: #FFB100;"><b>Rajesh Yadav</b><br> <span>(The Best Dad)</span></p>
+                  </div>
+                </div>
+
+                <div class="slide slide_4">
+                  <div class="slide-content">
+                    <p class="text2">The videos had excellent picture quality and audio. They were short and
+                      informative.<br>Thank you so much. PADHHIGH</p>
+                    <p style="color: #FFB100;"><b>Pankaj Yadav</b><br> <span>Kendriya Vidyalaya</span></p>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div id="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+
+          </div>
+          <div id="bullets">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+  <center>	<img src="./assets/img/vision.jpg" class="img-min" style="margin-top: -2px; margin-bottom: 20px;"></center>
+
+
   <div class="bg-blue-800 philo-section">
 
     <!-- <div class="has-shape">
@@ -251,6 +670,7 @@
     <div class="container">
 
       <section class="affordable-area pt-150 pb-70" style="padding-top: 30px;">
+        <span class="text-white"><b>Aim HIGH with QUIQ UNDERSTANDING</b></span>
         <h3 class="display-4 text-white">Your Benefits with PadhHigh </h3><br><br>
         <!-- <div class="section-title">
                 <span><b>Aim HIGH with QUIQ UNDERSTANDING</b></span>
@@ -359,243 +779,6 @@
     </svg>
   </div> -->
 
-  <section class="muse-section image-banner">
-    <center>
-      <img src="assets/img/dull.png" class="img-min img-dull" data-aos="zoom-in-up" data-aos-delay="100">
-    </center>
-  </section>
-
-
-
-  <div class="container bg-white" style="margin-top: -2px;">
-    <section class="muse-section">
-      <div class="row">
-        <div class="col-xl-8">
-          <!-- <h3 class="display-4 text-dark">Kyu IQ - <span>QUIQ ?</span></h3> -->
-          <h5>Current Problems</h5>
-          <h2 class="h1 mb-md-3 text-dark">You're facing right now</h2>
-
-          <!-- <p class="big text-white lh-lg">Duis quis ex ultrices, consectetur neque sed, blandit elit. In vitae est et est maximus lacinia. Aliquam erat volutpat.</p> -->
-        </div>
-      </div>
-      <!-- <div class="mt-1 mt-md-4 overlay-center shadow-dark-80 rounded-24" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/templates/philoshopy.jpg" class="rounded-24 w-100" alt="img">
-              <a href="#" data-toggle="modal" data-target="#staticBackdrop" class="btn play-btn">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 16 16">
-                      <g data-name="icons/tabler/play" transform="translate(0 0)">
-                          <rect data-name="Icons/Tabler/Play background" width="16" height="16" fill="none" />
-                          <path d="M.674,16A.681.681,0,0,1,0,15.314V.687A.681.681,0,0,1,.674,0a.661.661,0,0,1,.351.1L12.68,7.416a.693.693,0,0,1,0,1.168L1.025,15.9A.661.661,0,0,1,.674,16Zm.67-14.087V14.086L11.044,8Z" transform="translate(3)" fill="#ffffff" />
-                      </g>
-                  </svg>
-              </a>
-          </div> -->
-      <section class="education-area-two py-5" id="why" style="margin-top: -5%;">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="education-content">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <ul>
-                      <li>
-                        <i class="bx bx-check"></i>
-                        <span class="text-dark">Lack of Personal Guidance.</span>
-                      </li>
-                      <li>
-                        <i class="bx bx-check"></i>
-                        <Span class="text-dark">Slow in calculations.</Span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="col-lg-6">
-                    <ul>
-                      <li>
-                        <i class="bx bx-check"></i>
-                        <span class="text-dark">Focused in theoretical learning.</span>
-                      </li>
-                      <li>
-                        <i class="bx bx-check"></i>
-                        <span class="text-dark">Unaware about conceptual learning.</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-6">
-                    <ul>
-                      <li>
-                        <i class="bx bx-check"></i>
-                        <span class="text-dark">Just Memorizing to get marks &amp; move on.</span>
-                      </li>
-                      <li>
-                        <i class="bx bx-check"></i>
-                        <span class="text-dark">Don't Relate Mathematics with Life.</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-6">
-                    <ul>
-                      <li>
-                        <i class="bx bx-check"></i>
-                        <span class="text-dark">21st Century, need knowledgeful youth over book worms.</span>
-                      </li>
-                      <li>
-                        <i class="bx bx-check"></i>
-                        <span class="text-dark">Writing by understanding is almost negligible.</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </section>
-  </div>
-
-
-
-  <div class="bg-red-500 philo-section">
-    <!-- <div class="has-shape">
-      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 143.649">
-        <path id="Path_2" data-name="Path 2"
-          d="M0,55.558S368.667-36.174,768.667,23.553s593.365,64.118,810,47.555S1920,7.579,1920,7.579V147H0Z"
-          transform="translate(0 -3.351)" fill="#dc3545" />
-      </svg>
-    </div> -->
-    <div class="container">
-      <section class="muse-section">
-        <h3 class="display-4 text-white">What learners say</h3><br><br>
-
-        <div id="slider">
-          <input type="radio" name="slider" id="slide1" checked>
-          <input type="radio" name="slider" id="slide2">
-          <input type="radio" name="slider" id="slide3">
-          <input type="radio" name="slider" id="slide4">
-
-          <div id="slides" style="font-family: 'basic-first';" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-            data-aos-duration="1000">
-            <div id="overflow">
-              <div class="inner">
-                <div class="slide slide_1">
-                  <div class="slide-content">
-                    <p class="text2">PADHHIGH gave me the perfect solution for my child learning with concept clearance.
-                    </p>
-                    <p style="color: #FFB100;"><b>Nita Jain </b><br> <span>(A Happy Mom)</span></p>
-                  </div>
-                </div>
-
-                <div class="slide slide_2">
-                  <div class="slide-content">
-                    <p class="text2">I started PADHHIGH. And, now, I’m learning, and learning, and learning…visualized
-                      video are engaging & Interactive.</p>
-                    <p style="color: #FFB100;"><b>Ajay Gupta </b><br> <span>Vidya Bharati School</span></p>
-                  </div>
-                </div>
-
-                <div class="slide slide_3">
-                  <div class="slide-content">
-                    <p class="text2">“They're not just teaching but also ensuring that each student is learning
-                      properly. Really recommendable</p>
-                    <p style="color: #FFB100;"><b>Rajesh Yadav</b><br> <span>(The Best Dad)</span></p>
-                  </div>
-                </div>
-
-                <div class="slide slide_4">
-                  <div class="slide-content">
-                    <p class="text2">The videos had excellent picture quality and audio. They were short and
-                      informative.<br>Thank you so much. PADHHIGH</p>
-                    <p style="color: #FFB100;"><b>Pankaj Yadav</b><br> <span>Kendriya Vidyalaya</span></p>
-                  </div>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div id="controls">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
-
-          </div>
-          <div id="bullets">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
-
-          </div>
-        </div>
-      </section>
-    </div>
-
-  </div>
-
-  <section class="muse-section bg-white">
-    <div class="container py-15 py-md-17 pb-md-19">
-      <div class="row align-items-center gy-8 mb-10 mb-lg-5">
-        <div class="col-lg-6 text-lg-start">
-          <h2 class="fs-12 text-uppercase text-muted mb-3">We bring solutions to make life easier for our customers. We are trusted by over 5000+ Parents. Join them now.</h2>
-          <h3 class="fs-22">We Are Proud Of Our Works</h3>
-        </div>
-
-        <div class="col-lg-6">
-          <!-- <div class="row gy-6 text-center">
-            <div class="col-md-6 mt-4">
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 95%; background-color: #073984;"
-                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
-
-              </div>
-              <h2 class="mt-3" style="font-size: 18px;">
-                Customer Satisfaction</h2>
-            </div>
-
-            <div class="col-md-6 mt-4">
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #dc3545;"
-                  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-
-              </div>
-              <h2 class="mt-3" style="font-size: 18px;">
-                Increased Revenue</h2>
-            </div>
-
-          </div> -->
-          <div class="row align-items-center counter-wrapper gy-6 text-center">
-            <div class="col-md-4">
-              <img src="assets/img/icons/solid/target.png"
-                class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt=""
-                style="width: 50px; margin-top: 20px;" />
-              <h3 class="counter" style="visibility: visible;">9000+</h3>
-              <p class="mb-0">Students Love Us</p>
-            </div>
-
-            <div class="col-md-4">
-              <img src="assets/img/icons/solid/graph.png"
-                class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt=""
-                style="width: 50px; margin-top: 20px;" />
-              <h3 class="counter" style="visibility: visible;">4X</h3>
-              <p class="mb-0">Concepts Retention</p>
-            </div>
-
-            <div class="col-md-4">
-              <img src="assets/img/icons/solid/employee.png"
-                class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt=""
-                style="width: 50px; margin-top: 20px;" />
-              <h3 class="counter" style="visibility: visible;">99.3%</h3>
-              <p class="mb-0">Happy Parents</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
 
   <!-- <div class="has-shape has-shape-3">
   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 143.649">
@@ -695,9 +878,20 @@
     </div>
   </section> -->
 
+  <section class="pt-100 pb-70 bg-white" style="padding-top: 30px;">
+		<div class="container">
+			<div class="section-title">
+				<h2>No More पढ़LOW</h2>
+        <h2>Do पढ़HIGH</h2>
+        <span><b>Don't Memorize, Understand Concepts</b></span>
+        <br>
+        <a href="#expertsWillCallYouForm"><button class="btn bg-red-500 text-light">Know More</button></a>
+				<!-- <img src="assets/img/section-title-shape.png" alt="Image"> -->
+			</div>
+		</div>
+	</section>
 
-
-    <section class="muse-section">
+    <section class="muse-section" id="expertsWillCallYouForm">
       <div class="row pt-0 pt-md-4">
         <div class="col-lg-6">
           <div class="pr-0 pr-md-5 pt-4 mt-md-2">
@@ -752,138 +946,6 @@
       </div>
     </section>
   </div>
-
-
-
-  <section class="feedback-area ptb-100 pb-5 image-banner">
-    <div class="container">
-      <div class="section-title">
-        <!-- <span>Feedback</span> -->
-        <!-- <h2>What students say</h2> -->
-        <h3 class="display-4 text-black">What Students say</h3>
-      </div>
-
-      <div class="feedback-slider owl-theme owl-carousel">
-        <div class="feedback-item">
-          <i class="flaticon-quotation"></i>
-          <p>This was a very immersive and exciting course, and PADHHIGH helped me a lot. I enjoyed this
-            course sooooooooo much. Maybe I took the curriculum too seriously and put much effort into them,
-            but that only shows how engaging this course is. </p>
-
-          <div class="feedback-title">
-
-            <h3>Navya Goel</h3>
-            <span> Delhi Public School</span>
-          </div>
-        </div>
-
-        <div class="feedback-item">
-          <i class="flaticon-quotation"></i>
-          <p>The videos had excellent picture quality and audio. They were short and informative.
-            Thank you so much. PADHHIGH</p>
-
-          <div class="feedback-title">
-
-            <h3>Pankaj Yadav</h3>
-            <span>Kendriya Vidyalaya</span>
-          </div>
-        </div>
-
-        <div class="feedback-item">
-          <i class="flaticon-quotation"></i>
-          <p>I must say it's to the point and, honestly, an excellent supplement for competitive exams. You
-            don't need more than what's already in there. </p>
-
-          <div class="feedback-title">
-
-            <h3>Riya Saini </h3>
-            <span>The City Montessori School</span>
-          </div>
-        </div>
-
-        <div class="feedback-item">
-          <i class="flaticon-quotation"></i>
-          <p>I enjoyed the QUIQ Program. These short informative videos enhanced my learning experience and
-            kept me from being bored. They are structured and in sequence to what was required in the
-            curriculum. </p>
-
-          <div class="feedback-title">
-
-            <h3>Gaurav Meena </h3>
-            <span>St Xavier's High School</span>
-          </div>
-        </div>
-
-        <div class="feedback-item">
-          <i class="flaticon-quotation"></i>
-          <p>It can be reviewed until the concept is clear. I Recommend this QUIQ course to anyone that needs
-            to engage in online learning. </p>
-
-          <div class="feedback-title">
-
-            <h3>Ajay Gupta </h3>
-            <span>Vidya Bharati School</span>
-          </div>
-        </div>
-
-        <div class="feedback-item">
-          <i class="flaticon-quotation"></i>
-          <p>A wonderful, short and to the point insight into the world of Vedic Mathematics for a complete
-            beginner. With short videos containing good and easy examples of science & maths. </p>
-
-          <div class="feedback-title">
-
-            <h3>Rahul Arora </h3>
-            <span>St Francis De Sales High School</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </section>
-
-  <div class="container">
-    <br><br>
-    <h3 class="display-4 text-white quiq-font">QUIQ<span> Understanding</span></h3><br>
-    <!-- Start Feature Area -->
-    <section class="feature-area">
-      <div class="container">
-        <div class="feature-wrap">
-          <div class="row m-0">
-            <div class="col-lg-4 col-sm-6">
-              <div class="single-feature">
-                <i class="flaticon-online"></i>
-                <h4>LEARN ANYTIME , ANYWHERE</h4>
-                <p> Watch videos anytime when you would like to study with complete flexibility with no
-                  limits to watch</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-              <div class="single-feature">
-                <i class="flaticon-expert"></i>
-                <h4>VISUAL UNDERSTANDING</h4>
-                <p>Videos is fastest way to understand anything , young students can learn QUIQly with
-                  conceptual videos</p>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-              <div class="single-feature">
-                <i class="flaticon-online-class"></i>
-                <h4>VEDIC MATHS </h4>
-                <p>Do Maths Rapidly in your network, have a great position in front of crowd & Be Different
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <br><br>
-  </div>
-
 
 
   <!-- <section class="education-area-two ptb-100 image-banner" id="why">
@@ -999,333 +1061,21 @@
   </section> -->
   <!-- End Counter Area -->
 
-  <section class="affordable-area pt-100 pb-70 bg-white" style="padding-top: 30px;">
-		<div class="container">
-			<div class="section-title">
-				<h2>No More पढ़LOW</h2>
-        <h2>Do पढ़HIGH</h2>
-        <span><b>Don't Memorize, Understand Concepts</b></span>
-        <br>
-        <button class="btn bg-red-500 text-light">Know More</button>
-				<!-- <img src="assets/img/section-title-shape.png" alt="Image"> -->
-			</div>
-		</div>
-	</section>
 
 
 
-  <center>	<img src="./assets/img/vision.jpg" class="img-min" style="margin-top: -2px;"></center>
 	
-	<section class="affordable-area pt-100 pb-70 bg-white" style="padding-top: 30px;">
+	<!-- <section class="affordable-area pt-100 pb-70 bg-white" style="padding-top: 30px;">
 		<div class="container">
 			<div class="section-title">
 				<span><b>Aim HIGH with QUIQ UNDERSTANDING</b></span>
 				<h2>YOUR BENEFITS WITH PADH HIGH </h2>
-				<!-- <img src="assets/img/section-title-shape.png" alt="Image"> -->
 			</div>
 		</div>
-	</section>
-
-
-  <!-- Start Discover Area -->
-  <section class="discover-area pt-100 pb-100">
-    <div class="container">
-      <div class="row align-items-center" id="enroll">
-        <div class="col-lg-12">
-          <div class="discover-slider owl-theme owl-carousel">
-            <div class="single-course">
-              <a href="index2.html">
-                <img src="images/std%20names6.jpg" alt="Image">
-              </a>
-
-              <div class="course-content">
-                <span class="price">40%off </span>
-                <span class="tag">CBSE EDUCATION</span>
-
-                <a href="https://padhhigh.com/index2.html">
-                  <h3 class="quiq-font">QUIQ QONCEPT</h3>
-                  <h6>Quaterly</h6>
-                </a>
-
-                <ul class="rating">
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                </ul>
-                <center>
-                  <h6>QUIQ 6th Program</h6>
-                </center>
-                <center><del>₹18,000Rs</del>&nbsp;<b>₹12,999Rs</b></center>
-                <ul class="lessons">
-                  <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_FXr5UmQKu3cj7u/view"
-                    data-text="ENROLL NOW" data-color="#FFB607" data-size="large">
-                    <script>
-                      (function () {
-                        var d = document; var x = !d.getElementById('razorpay-embed-btn-js')
-                        if (x) {
-                          var s = d.createElement('script'); s.defer = !0; s.id = 'razorpay-embed-btn-js';
-                          s.src = '../../cdn.razorpay.com/static/embed_btn/bundle.js'; d.body.appendChild(s);
-                        } else {
-                          var rzp = window['_rzp_'];
-                          rzp && rzp.init && rzp.init()
-                        }
-                      })();
-                    </script>
-                  </div>
-                </ul>
-              </div>
-            </div>
+	</section> -->
 
 
 
-
-
-            <div class="single-course">
-              <a href="inex2.html">
-                <img src="images/std%20names7.jpg" alt="Image">
-              </a>
-
-              <div class="course-content">
-                <span class="price">40%off </span>
-                <span class="tag">CBSE EDUCATION</span>
-
-                <a href="https://padhhigh.com/index2.html">
-                  <h3 class="quiq-font">QUIQ QONCEPT</h3>
-                  <h6>Quaterly</h6>
-
-                </a>
-
-                <ul class="rating">
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-
-                </ul>
-                <center>
-                  <h6>QUIQ 7th Program</h6>
-                </center>
-                <center><del>₹18,000Rs</del>&nbsp;<b>₹12,999Rs</b></center>
-                <ul class="lessons">
-                  <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_FXr5UmQKu3cj7u/view"
-                    data-text="ENROLL NOW" data-color="#FFB607" data-size="large">
-                    <script>
-                      (function () {
-                        var d = document; var x = !d.getElementById('razorpay-embed-btn-js')
-                        if (x) {
-                          var s = d.createElement('script'); s.defer = !0; s.id = 'razorpay-embed-btn-js';
-                          s.src = '../../cdn.razorpay.com/static/embed_btn/bundle.js'; d.body.appendChild(s);
-                        } else {
-                          var rzp = window['_rzp_'];
-                          rzp && rzp.init && rzp.init()
-                        }
-                      })();
-                    </script>
-                  </div>
-
-
-                </ul>
-              </div>
-            </div>
-
-            <div class="single-course">
-              <a href="https://padhhigh.com/index2.html">
-                <img src="images/std%20names8.jpg" alt="Image">
-              </a>
-
-              <div class="course-content">
-                <span class="price">40%off </span>
-                <span class="tag">CBSE EDUCATION</span>
-
-                <a href="index2.html">
-                  <h3 class="quiq-font">QUIQ QONCEPT</h3>
-                  <h6>Quaterly</h6>
-
-                </a>
-
-                <ul class="rating">
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                </ul>
-                <center>
-                  <h6>QUIQ 8th Program</h6>
-                </center>
-                <center><del>₹18,000Rs</del>&nbsp;<b>₹12,999Rs</b></center>
-                <ul class="lessons">
-                  <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_FXr5UmQKu3cj7u/view"
-                    data-text="ENROLL NOW" data-color="#FFB607" data-size="large">
-                    <script>
-                      (function () {
-                        var d = document; var x = !d.getElementById('razorpay-embed-btn-js')
-                        if (x) {
-                          var s = d.createElement('script'); s.defer = !0; s.id = 'razorpay-embed-btn-js';
-                          s.src = '../../cdn.razorpay.com/static/embed_btn/bundle.js'; d.body.appendChild(s);
-                        } else {
-                          var rzp = window['_rzp_'];
-                          rzp && rzp.init && rzp.init()
-                        }
-                      })();
-                    </script>
-                  </div>
-                </ul>
-              </div>
-            </div>
-
-            <div class="single-course">
-              <a href="https://padhhigh.com/index2.html">
-                <img src="images/std%20names9.jpg" alt="Image">
-              </a>
-
-              <div class="course-content">
-                <span class="price">40%off </span>
-                <span class="tag">CBSE EDUCATION</span>
-
-                <a href="index2.html">
-                  <h3 class="quiq-font">QUIQ QONCEPT</h3>
-                  <h6>Quaterly</h6>
-
-                </a>
-
-                <ul class="rating">
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                </ul>
-                <center>
-                  <h6>QUIQ 9th Program</h6>
-                </center>
-                <center><del>₹18,000Rs</del>&nbsp;<b>₹12,999Rs</b></center>
-                <ul class="lessons">
-                  <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_FXr5UmQKu3cj7u/view"
-                    data-text="ENROLL NOW" data-color="#FFB607" data-size="large">
-                    <script>
-                      (function () {
-                        var d = document; var x = !d.getElementById('razorpay-embed-btn-js')
-                        if (x) {
-                          var s = d.createElement('script'); s.defer = !0; s.id = 'razorpay-embed-btn-js';
-                          s.src = '../../cdn.razorpay.com/static/embed_btn/bundle.js'; d.body.appendChild(s);
-                        } else {
-                          var rzp = window['_rzp_'];
-                          rzp && rzp.init && rzp.init()
-                        }
-                      })();
-                    </script>
-                  </div>
-                </ul>
-              </div>
-            </div>
-
-            <div class="single-course">
-              <a href="https://padhhigh.com/index2.html">
-                <img src="images/std%20names10.jpg" alt="Image">
-              </a>
-
-              <div class="course-content">
-                <span class="price">40%off </span>
-                <span class="tag">CBSE EDUCATION</span>
-
-                <a href="index2.html">
-                  <h3 class="quiq-font">QUIQ QONCEPT</h3>
-                  <h6>Quaterly</h6>
-
-                </a>
-
-                <ul class="rating">
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                  <li>
-                    <i class="bx bxs-star"></i>
-                  </li>
-                </ul>
-                <center>
-                  <h6>QUIQ 10th Program</h6>
-                </center>
-                <center><del>₹18,000Rs</del>&nbsp;<b>₹12,999Rs</b></center>
-                <ul class="lessons">
-                  <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_FXr5UmQKu3cj7u/view"
-                    data-text="ENROLL NOW" data-color="#FFB607" data-size="large">
-                    <script>
-                      (function () {
-                        var d = document; var x = !d.getElementById('razorpay-embed-btn-js')
-                        if (x) {
-                          var s = d.createElement('script'); s.defer = !0; s.id = 'razorpay-embed-btn-js';
-                          s.src = '../../cdn.razorpay.com/static/embed_btn/bundle.js'; d.body.appendChild(s);
-                        } else {
-                          var rzp = window['_rzp_'];
-                          rzp && rzp.init && rzp.init()
-                        }
-                      })();
-                    </script>
-                  </div>
-                </ul>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
 
 <!-- 
   <section class="wrapper bg-light">
@@ -1411,41 +1161,6 @@
 
   </section> -->
 
-  <section class="affordable-area pt-100 pb-70 bg-white" style="padding-top: 30px;">
-		<div class="container">
-			<div class="row">
-        <div class="col-md-6">
-          <h5 style="color: #dc3545;">DO PADHHIGH, AIM HIGH</h5>
-          <h2 class="h1 quiq-font">QUIQ UNDERSTANDING</h2>
-          <p style="margin-bottom: 10px;">
-            PADHHIGH designed this QUIQ program in the simplest way for every student to learn & understand the concepts quickly in a affordable manner. Videos Curriculum are created by 100+ top academic teachers by hand-picked researched on thousands of books to create best videos for your children.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <ul>
-            <li class="text-dark" style="font-size: 20px; font-weight: 700; margin: 5px;">
-              <button class="btn" style="border-radius: 50%; color: white; background-color: #fc2f5c; margin-right: 20px;">1</button>
-              Visualise
-            </li>
-            <li class="text-dark" style="font-size: 20px; font-weight: 700; margin: 5px;">
-              <button class="btn" style="border-radius: 50%; color: white; background-color: #ffb607; margin-right: 20px;">2</button>
-              Understand
-            </li>
-            <li class="text-dark" style="font-size: 20px; font-weight: 700; margin: 5px;">
-              <button class="btn" style="border-radius: 50%; color: white; background-color: #925eca; margin-right: 20px;">3</button>
-              LEARN
-            </li>
-            <li class="text-dark" style="font-size: 20px; font-weight: 700; margin: 5px;">
-              <button class="btn" style="border-radius: 50%; color: white; background-color: #52a0dd; margin-right: 20px;">4</button>
-              REVISE
-            </li>
-          </ul>
-        </div>
-      </div>
-		</div>
-	</section>
-
-  <center>	<img class="bg-white" src="./assets/img/hero_img.png" class="img-min" style="margin-top: -2px; padding-bottom: 20px;"></center>
 
   <section class="muse-section bg-red-500 text-light" style="padding-left: 5%; padding-right: 5%;">
     <div>
@@ -1490,6 +1205,94 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="feedback-area ptb-100 pb-5 image-banner">
+    <div class="container">
+      <div class="section-title">
+        <!-- <span>Feedback</span> -->
+        <!-- <h2>What students say</h2> -->
+        <h3 class="display-4 text-black">What Students say</h3>
+      </div>
+
+      <div class="feedback-slider owl-theme owl-carousel">
+        <div class="feedback-item">
+          <i class="flaticon-quotation"></i>
+          <p>This was a very immersive and exciting course, and PADHHIGH helped me a lot. I enjoyed this
+            course sooooooooo much. Maybe I took the curriculum too seriously and put much effort into them,
+            but that only shows how engaging this course is. </p>
+
+          <div class="feedback-title">
+
+            <h3>Navya Goel</h3>
+            <span> Delhi Public School</span>
+          </div>
+        </div>
+
+        <div class="feedback-item">
+          <i class="flaticon-quotation"></i>
+          <p>The videos had excellent picture quality and audio. They were short and informative.
+            Thank you so much. PADHHIGH</p>
+
+          <div class="feedback-title">
+
+            <h3>Pankaj Yadav</h3>
+            <span>Kendriya Vidyalaya</span>
+          </div>
+        </div>
+
+        <div class="feedback-item">
+          <i class="flaticon-quotation"></i>
+          <p>I must say it's to the point and, honestly, an excellent supplement for competitive exams. You
+            don't need more than what's already in there. </p>
+
+          <div class="feedback-title">
+
+            <h3>Riya Saini </h3>
+            <span>The City Montessori School</span>
+          </div>
+        </div>
+
+        <div class="feedback-item">
+          <i class="flaticon-quotation"></i>
+          <p>I enjoyed the QUIQ Program. These short informative videos enhanced my learning experience and
+            kept me from being bored. They are structured and in sequence to what was required in the
+            curriculum. </p>
+
+          <div class="feedback-title">
+
+            <h3>Gaurav Meena </h3>
+            <span>St Xavier's High School</span>
+          </div>
+        </div>
+
+        <div class="feedback-item">
+          <i class="flaticon-quotation"></i>
+          <p>It can be reviewed until the concept is clear. I Recommend this QUIQ course to anyone that needs
+            to engage in online learning. </p>
+
+          <div class="feedback-title">
+
+            <h3>Ajay Gupta </h3>
+            <span>Vidya Bharati School</span>
+          </div>
+        </div>
+
+        <div class="feedback-item">
+          <i class="flaticon-quotation"></i>
+          <p>A wonderful, short and to the point insight into the world of Vedic Mathematics for a complete
+            beginner. With short videos containing good and easy examples of science & maths. </p>
+
+          <div class="feedback-title">
+
+            <h3>Rahul Arora </h3>
+            <span>St Francis De Sales High School</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </section>
 
   <section class="muse-section bg-yellow-500" style="overflow-x:hidden; padding:3%">
@@ -1675,7 +1478,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="f_widget dark_widget about-widget pl_70">
-            <h3 class="f-title f_500 t_color f_size_18 mb_40 text-center">CBSC</h3>
+            <h3 class="f-title f_500 t_color f_size_18 mb_40 text-center">CBSE</h3>
             <ul class="list-unstyled f_list text-center">
               <li><a href="#">6th Class</a></li>
               <li><a href="#">7th Class</a></li>
