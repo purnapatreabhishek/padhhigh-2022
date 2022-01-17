@@ -8738,3 +8738,18 @@ html { scroll-behavior: smooth; }
   transform: translateY(-50%);
   padding: 11px 32px;
 }
+
+.new-silder{
+  color: white;
+  background-color: #3e6f4c; 
+  width: 70%; 
+  height: 100%;
+  padding-top: 9%; 
+  padding-bottom: 9%; 
+  font-weight: 900;
+   border-color: #ffe4a5; 
+   border-style: solid; border-width: 10px;  
+   border-radius: 20px;
+   padding-left: 2%;
+   padding-right: 2%;
+}
