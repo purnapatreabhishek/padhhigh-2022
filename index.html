@@ -914,20 +914,20 @@
         <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
           <div class="pl-lg-5 ml-xl-5">
             <div class="p-sm-4 p-2 rounded-12" style="background-color: white;">
-              <form class="row m-0 light-form">
+              <form class="row m-0 light-form" action="./php/form-backend.php" method="post">
                 <div class="col-md-12 mb-1 mt-1">
                   <p class="small lh-lg" style="color: black;">Need Help? We offer custom learning solutions including
                     mentorship and a detailed team</p>
                 </div>
                 <div class="col-md-12 mb-3">
-                  <input type="text" placeholder="Student Name" class="form-control form-control-lg">
+                  <input type="text" placeholder="Student Name" class="form-control form-control-lg" name="student_name">
                 </div>
                 <div class="col-md-12 mb-3">
-                  <input type="text" placeholder="Parent Name" class="form-control form-control-lg">
+                  <input type="text" placeholder="Parent Name" class="form-control form-control-lg" name="parent_name">
                 </div>
 
                 <div class="col-md-12 mb-3">
-                  <select class="form-control form-control-lg" aria-label="Select Class">
+                  <select class="form-control form-control-lg" aria-label="Select Class" name="class_of_student">
                     <option selected>Select Class</option>
                     <option value="3">3rd</option>
                     <option value="4">4th</option>
@@ -944,16 +944,16 @@
 
 
                 <div class="col-md-12 mb-3">
-                  <input type="text" placeholder="Phone Number" class="form-control form-control-lg">
+                  <input type="text" placeholder="Phone Number" class="form-control form-control-lg" name="phone_number">
                 </div>
                 <div class="col-md-12 mb-3">
-                  <input type="email" placeholder="Email" class="form-control form-control-lg">
+                  <input type="email" placeholder="Email" class="form-control form-control-lg" name="email">
                 </div>
                 <div class="col-md-12 mb-3">
-                  <input type="text" placeholder="School Name with City" class="form-control form-control-lg">
+                  <input type="text" placeholder="School Name with City" class="form-control form-control-lg" name="school_name">
                 </div>
                 <div class="col-md-12 mb-2">
-                  <button type="button" class="btn btn-lg btn-block btn-danger">Send</button>
+                  <button type="button" class="btn btn-lg btn-block btn-danger" name="submit">Send</button>
                 </div>
               </form>
             </div>
